@@ -25,7 +25,7 @@ $ irb
 >> require 'awesome_palindrome'
 >> "honey badger".palindrome?
 => false
->> "deified".palindrome?
+>> "我是我".palindrome?
 => true
 >> "Able was I, ere I saw Elba.".palindrome?
 => true

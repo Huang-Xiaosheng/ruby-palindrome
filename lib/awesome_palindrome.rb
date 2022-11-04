@@ -14,7 +14,7 @@ module AwesomePalindrome
 
     # Returns content for palindrome testing.
     def processed_content
-      to_s.scan(/[a-z0-9]/i).join.downcase
+      to_s.scan(/[\p{Word}+^_]/).join.downcase
     end
 end
 

@@ -16,6 +16,10 @@ class TestAwesomePalindrome < Minitest::Test
     assert "RaceCar".palindrome?
   end
 
+  def test_non_ASCII_palindrome
+    assert "Ah我是我ha".palindrome?
+  end
+
   def test_palindrome_with_punctuation
     assert "Madam, I'm Adam.".palindrome?
   end
