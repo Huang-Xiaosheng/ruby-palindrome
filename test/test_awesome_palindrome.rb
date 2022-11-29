@@ -17,7 +17,7 @@ class TestAwesomePalindrome < Minitest::Test
   end
 
   def test_non_ASCII_palindrome
-    assert "Ah我是我ha".palindrome?
+    assert "我是我".palindrome?
   end
 
   def test_palindrome_with_punctuation
